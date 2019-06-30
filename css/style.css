@@ -1,0 +1,672 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Century Gothic';
+	line-height: 1.6
+}
+@font-face {
+	font-family: 'PoppinsBlack';
+	src: url('../css/font/PoppinsBlack.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'PoppinsBold';
+	src: url('../css/font/PoppinsBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'PoppinsExtraLight';
+	src: url('../css/font/PoppinsExtraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'PoppinsRegular';
+	src: url('../css/font/PoppinsRegular.ttf') format('truetype');
+}
+.container {
+	width: 80%; 
+	margin: 0 auto;
+}
+header {
+    background: url(../img/banner.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+.navigation {
+    padding: 15px 0;
+}
+img.logo {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+.menu.Navmenu {
+    float: right;
+    margin: 10px 0;
+}
+header ul li {
+	display: inline-block;
+	list-style: none;
+	 padding: 0px 10px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #665526;
+    font-size: 20px;
+}
+ .nav-toggle {
+    display: none;
+ }
+/*AGENCY SECTION*/
+#whychoose {
+	text-align: center;
+	color: #334d5c;
+	padding: 50px 0;
+}
+#whychoose h2 {
+	font-family: 'PoppinsBlack';
+	font-size: 25px;
+}
+#whychoose h4 {
+	font-family: 'PoppinsBold';
+	font-size: 20px;
+	color: #45b29d;
+	padding: 10px 0;
+}
+#whychoose p {
+    padding: 20px;
+    line-height: 1.6;
+}
+li.bgyel {
+    background: #ffc52f;
+    padding: 15px;
+}
+.col-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.serviceList {
+    width: calc(80% / 3);
+    border: 1px solid #80808059;
+    border-radius: 40px;
+    padding: 30px;
+    margin: 14px;
+    box-shadow: 0 3px 6px rgba(55, 211, 220, 0.16), 0 3px 6px rgba(61, 111, 110, 0.23);
+}
+img.serviceImg {
+	width: 90%;
+	height: auto;
+}
+
+/*about Section*/
+#about {
+    background: url(../img/aboutBg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+}
+#about h2 {
+	font-family:'PoppinsExtraLight';
+	font-size: 40px;
+	color: #334d5c;
+}
+span.redText {
+    font-family: 'PoppinsBlack';
+    font-size: 40px;
+    color: #df5a49;
+    font-weight: bolder;
+}
+.btn1 {
+    background: #105b63;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'PoppinsRegular';
+    color: #fff;
+}
+.btn2 {
+    background: #105b63;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    outline: none;
+    font-family: 'PoppinsRegular';
+    color: #fff;
+}
+
+.col-about {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.leftAbout {
+    width: calc(100% / 3);
+}
+.lefty {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: calc(96% /2 );
+}
+.col-img {
+    margin: 0 4px;
+}
+.col-about p {
+    padding: 10px 0;
+}
+
+/*newsandevent*/
+.eventBg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+/*    top: 13em;*/
+}
+#newsevents {
+    background: url(../img/event.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%
+    width: 100%;
+        padding: 100px 0;
+}
+#newsevents p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+.col-events {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.eventList {
+    width: calc(74% / 4);
+    background-color: #fff;
+    padding: 25px;
+    margin: 0 5px;
+    border-radius: 40px;
+    box-shadow: 0 3px 6px rgba(55, 211, 220, 0.16), 0 3px 6px rgba(61, 111, 110, 0.23);
+
+}
+img.imgEvent {
+    width: 100%;
+    height: auto;
+}
+p.calendar {
+    font-family: PoppinsExtraLight;
+    font-size: 12px !important;  
+}
+p.readmore {
+    text-align: right;
+      font-family: PoppinsExtraLight;
+}
+.list {
+    background: none;
+    box-shadow: none;
+}
+.listEvents h2 {
+	font-family:'PoppinsExtraLight';
+	font-size: 40px;
+	color: #334d5c;
+}
+.listEvents p{
+	text-align: right;
+}
+span.news {
+ 	font-family: 'PoppinsBlack';
+    font-size: 37px;
+    color: #df5a49;
+    font-weight: bolder;
+ }
+button.btn1 {
+    float: right;
+}
+
+/*discover section*/
+#discover {
+    text-align: center;
+    background: url(../img/aboutBg.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100%;
+}
+
+#discover h2 {
+	font-family:'PoppinsExtraLight';
+	font-size: 40px;
+	color: #334d5c;
+}
+span.places {
+ 	font-family: 'PoppinsBlack';
+    font-size: 40px;
+    color: #df5a49;
+    font-weight: bolder;
+ }
+
+ .col-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.listImages {
+    margin: 30px 20px;
+}
+
+/*client section*/
+#client {
+    text-align: center;
+}
+img.clientImg {
+    width: auto;
+    height: 70px;
+}
+#client h2 {
+    font-family: 'PoppinsExtraLight';
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.left {
+	background-color: #db9e36;
+}
+.right {
+    background-color: #ffd34e;
+}
+.col-client {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 50px 0;
+}
+.client-right {
+    width: calc(100% /2);
+    padding: 50px 0;
+}
+.listClient {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+span.clientText {
+    font-family: 'PoppinsBlack';
+}
+img.quote {
+    padding: 20px 0;
+}
+#client p {
+    font-family: PoppinsRegular;
+    color: #fff;
+    text-align: center;
+}
+.client-row {
+    padding: 0 20px;
+}
+.clientLogo {
+    padding: 50px 0;
+}
+img.clientImg {
+    padding: 0 10px;
+}
+
+/*footer*/
+#footer {
+    background: url(../img/footerBg.png);
+    background-repeat: repeat;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+    padding: 100px 0;
+}
+#footer h4 {
+    padding: 10px 0;
+    color: #333333;
+}
+
+.col-foter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.copyrightCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-foter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.fab {
+    padding: 0 10px;
+}
+
+/*media query*/
+@media (max-width: 767px) {
+    img.logo {
+        width: 145px;
+    }
+    header {
+        height: 60vh;
+        width: auto;
+    }
+     .menu.Navmenu {
+        top: 55px !important;
+    }
+    .col-service {
+        display: block;
+    }
+    .serviceList {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .col-about {
+        display: block;
+    }
+    .leftAbout {
+        width: 100%;
+    }
+    .lefty {
+        display: block;
+        padding: 20px 0;
+    }
+    #about {
+        background-position: center;
+        height: 100%;
+        text-align: center;
+        background-size: cover;
+    }
+    .serviceList {
+        margin: 14px 0;
+    }
+    #whychoose {
+        padding-top: 50px;
+    }
+    #newsevents {
+        height: 100%;
+    }
+    #newsevents p {
+        padding: 10px;
+    }
+    .eventBg {
+        top: 0;
+        display: block; 
+    }
+    .eventList {
+        text-align: center;
+        width: 100%;
+        padding: 25px 0;
+        margin: 10px 0;
+    }
+    img.imgEvent {
+        width: 100%;
+        height: auto;
+    }
+    .listEvents p {
+        text-align: center;
+    }
+    button.btn1{
+        float: none;
+    }
+    img.places {
+        width: 100%;
+        height: auto;
+    }
+    #discover{
+        width: 100%;
+        height: 100%;
+        margin: 50px 0;
+    }
+    #discover h2 {
+        text-align: center;
+    }
+    .listImages {
+        margin: 7px 0;
+    }
+    #client {
+        text-align: center;
+    }
+    .col-client {
+        display: block;
+        padding: 0;
+    }
+    .client-right {
+        width: 100%;
+    }
+    img.clientImg {
+        width: 60%;
+        padding: 10px 0;
+        height: 100%;
+    }
+    .listClient {
+        display: block;
+    }
+    #footer {
+        background-size: cover;
+    }
+    .col-foter {
+        display: block;
+        padding-top: 50px;
+    }
+    .col-col-footer {
+        padding: 20px 0;
+    }
+    .copyrightCon{
+        display: block;
+    }
+    p.copyright {
+       padding: 10px 0;
+    }
+    .col-copyright {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    header {
+        height: 29em;
+    }
+    header ul li {
+        padding: 0 2px;
+    }
+    .menu.Navmenu {
+        top: 50px;
+    }
+    li.bgyel {
+       padding: 0 !important
+
+    }
+    .serviceList {
+        width: calc(100% / 3);
+    }
+    .leftAbout {
+        width: calc(100% / 2);
+    }
+    #about {
+        background-size: cover;
+        height: 100%;
+    }
+    .eventList {
+        width: calc(80% / 2);
+    }
+    .col-about {
+        align-items: center;
+    }
+    .eventBg {
+        top: 0;
+    }
+    #newsevents{
+        height: 100%;
+        padding: 50px 0;
+    }
+    .listEvents h2 {
+        text-align: center;
+    }
+    #newsevents p {
+        text-align: center;
+    }
+    .listEvents {
+        text-align: center;
+    }
+    button.btn1 {
+        float: none;
+    }
+    #discover {
+        height: 100%;
+    }
+    .listClient {
+        display: block;
+    }
+    .clientLogo {
+        text-align: center;
+    }
+    .client-row {
+        text-align: center;
+    }
+    .listImages {
+        margin: 30px 0;
+        width: calc(100% / 2);
+    }
+    img.places {
+        width: 90%;
+        height: auto;
+    }
+    .eventList {
+        margin: 5px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    header {
+        height: 35em;
+    }
+    .serviceList {
+        width: calc(100% / 3);
+    }
+    .leftAbout {
+        width: calc(100% / 2);
+    }
+    #about {
+        background-size: cover;
+        height: 100%;
+    }
+    .eventList {
+        width: calc(80% / 2);
+    }
+    .col-about {
+        align-items: center;
+    }
+    .eventBg {
+        top: 0;
+    }
+    #newsevents{
+        height: 100%;
+        padding: 50px 0;
+    }
+    .listEvents h2 {
+        text-align: center;
+    }
+    #newsevents p {
+        text-align: center;
+    }
+    .listEvents {
+        text-align: center;
+    }
+    button.btn1 {
+        float: none;
+    }
+    #discover {
+        height: 100%;
+    }
+    .listClient {
+        display: block;
+    }
+    .clientLogo {
+        text-align: center;
+    }
+    .client-row {
+        text-align: center;
+    }
+    .listImages {
+        margin: 30px 0;
+        width: calc(100% / 2);
+    }
+    img.places {
+        width: 90%;
+        height: auto;
+    }
+    .eventList {
+        margin: 5px;
+    }
+}
+@media (max-width: 992px) {
+    .nav-toggle{
+        display: block;
+        float: right;
+        top: 15px;
+        position: relative;
+        padding: 10px;
+        border: none;
+        background: #c1eaf0;
+        color: #45b29d;
+        font-weight: bolder;
+        outline: none;
+        cursor: pointer;
+    }
+    .menu{
+       display: none;
+    }
+    .nav-toggle .menu{
+        display: block;
+    }
+    .menu-active {
+        display: block;
+    }
+    .menu.Navmenu {
+        background: #000000c2;
+        position: absolute;
+        top: 51px;
+        width: 100%;
+        z-index: 999;
+        width: 80%;
+    }
+    header ul li {
+        display: block;
+        padding: 5px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    li.bgyel {
+        background: none;
+        padding: 0 !important;
+    }
+    header ul li a {
+        color: #fff;
+    }
+}
